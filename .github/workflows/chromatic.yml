@@ -19,7 +19,7 @@ jobs:
         with:
           #� Sets the version of Node.js to use
           node-version: 16
-      - run: npm i
+      - run: yarn
         #� Adds Chromatic as a step in the workflow
       - uses: chromaui/action@v1
         # Options required for Chromatic's GitHub Action
