@@ -50,7 +50,7 @@ const StyledButton = styled.button`
   user-select: none;
   opacity: 1;
   margin: 0;
-  background: blue;
+  background: yellow;
 
   font-size: ${(props) =>
     props.size === SIZES.SMALL ? typography.size.s1 : typography.size.s2}px;
